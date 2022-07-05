@@ -1,0 +1,230 @@
+/* hero-area style  */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #121212;
+margin-bottom: 15px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 28xp;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin-bottom: 15px;
+  }
+  body{
+    font-size: 18px;
+    line-height: 28xp;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+  }
+.hero-area {
+	position: relative;
+	background-image: url("img/banner-bg.jpg");
+	height: 670px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hero-content {
+  text-align: center;
+}
+.hero-title {
+  font-size: 65px;
+  color: white;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  color: white;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+.fill-btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    height: 56px;
+    background: #FF5959;
+    line-height: 56px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    padding: 0px 20px;
+}
+
+/* donation-area style  */
+
+.section-title {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .donation-area-content {
+    max-width: 765px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .pay-ammount {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+  .pay-ammount li a {
+    width: 135px;
+    height: 123px;
+    display: inline-flex;
+    background: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+  }
+  .pay-ammount li a.active {
+	color: #FF5959;
+	border: 2px solid #FF5959;
+	background: #FFEEEE;
+}
+  .pay-ammount li {
+    list-style: none;
+  }
+  .pay-ammount ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .donation-area {
+    padding-top: 120px;
+  }
+  
+.active {
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background: #FFEEEE;
+  }
+  .input-payment input {
+    height: 40px;
+    border: 0;
+    border-bottom: 2px solid #DADADA;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  .input-payment {
+    margin-bottom: 30px;
+  }
+
+
+  /* donation-plan area style  */
+  .donate-plan-area {
+	padding-top: 120px;
+}
+.single-donate-plan {
+    width: 360px;
+    border-radius: 5px;
+    background: #EDF5F6;
+    padding: 60px 25px 55px;
+    text-align: left;
+  }
+.single-donate-plan.color-2 {
+    background: #EDF5F6;
+  }
+.single-donate-plan.color-2 {
+    background: #FFEEEE;
+  }
+.single-donate-plan.color-3 {
+    background: #FFF4D6;
+  }
+  .single-donate-plan p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .donate-plans ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .donate-plans li {
+    list-style: none;
+  }
+  .donate-plan-content {
+    width: 1130px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .plan-icon {
+    margin-bottom: 25px;
+  }
+  .plan-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .donate-plan-content p {
+    margin-bottom: 50px;
+  }
+
+  /* subscription-area style  */
+  
+.subscription-area {
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+.subscription-area-content {
+  width: 810px;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscription-area-content p {
+  margin-bottom: 50px;
+}
+.subsctiption-form-wrapper {
+  background: #FFF4D6;
+  padding: 75px 180px;
+}
+.subc-input-payment input {
+  width: 100%;
+  background: #D9D9D9;
+  height: 48px;
+  border: 0;
+  padding: 0 15px;
+  border-radius: 5px 0 0 5px;
+}
+.subc-input-payment {
+  display: flex;
+}
+.subc-input-payment .fill-btn {
+  height: 48px;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  line-height: 48px;
+  padding: 0 30px;
+}
+
+
+/* footer-content style  */
+.footer-content h4 {
+    font-size: 36px;
+    color: #FF5959;
+    margin-bottom: 25px;
+    font-family: 'Lobster', cursive;
+  }
+  .footer-content p {
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-bottom: 0;
+  }
+  .footer-content {
+    text-align: center;
+    background: #0B0D17;
+    padding: 45px 0;
+  }
